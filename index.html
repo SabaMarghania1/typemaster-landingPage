@@ -4,13 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/shared&utilities.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
     <style></style>
   </head>
   <body>
-    <header class="container">
+    <header class="header container">
       <img class="logo" src="./assets/shared/logo.svg" alt="logo" />
       <a href="#" class="header-btn btn">PRE-ORDER NOW</a>
     </header>
+    <main>
+      <section class="hero__section container">
+        <div class="hero__section-textcontent flex-col">
+          <h1 class="main__title title">Typemaster Keyboard</h1>
+          <p class="hero__text text">
+            Improve your productivity and gaming without breaking the bank. Upgrade to a high
+            quality mechanical typing experience.
+          </p>
+          <div class="information">
+            <a href="#" class="order__btn btn">Pre-order now</a>
+            <p href="#" class="date">Release on 5/27</p>
+          </div>
+        </div>
+        <div class="hero__section-img-container">
+          <img src="./assets/mobile/image-keyboard.jpg" class="hero__section-img img__mobile" />
+          <img
+            src="./assets/tablet/image-keyboard.jpg"
+            alt="keyboard"
+            class="hero__section-img img__tablet"
+          />
+          <img
+            src="./assets/desktop/image-keyboard.jpg"
+            alt="keyboard"
+            class="hero__section-img img__desktop"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
