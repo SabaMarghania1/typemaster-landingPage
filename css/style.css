@@ -10,8 +10,17 @@
   background-color: #e8eff2;
 }
 
-hero__section {
-  width: 100%;
+.header-btn:hover {
+  color: white;
+  background-color: var(--dark-color);
+}
+
+main {
+  margin-bottom: 96px;
+}
+
+.hero__section {
+  margin-bottom: 25px;
 }
 
 .hero__section-textcontent {
@@ -39,6 +48,10 @@ hero__section {
   color: var(--white);
 }
 
+.order__btn:hover {
+  background-color: var(--secondary-orange);
+}
+
 .date {
   color: var(--light-color);
   margin-right: 15px;
@@ -60,4 +73,81 @@ hero__section {
   width: 100%;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+/* IMGS section */
+
+.imgs {
+  display: flex;
+  margin-left: -25px;
+  gap: 25px;
+  height: 193px;
+  margin-bottom: 75px;
+}
+
+.img__left {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: relative;
+}
+
+.img__right {
+  border-radius: 20px;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.about__header {
+  margin-bottom: 111px;
+}
+
+.about__title {
+  font-size: 32px;
+  max-width: 220px;
+  margin: 0 auto 24px;
+}
+
+.about__text {
+  text-align: center;
+}
+
+.about__list {
+  gap: 64px;
+}
+
+.about__list-item {
+  display: flex;
+  gap: 48px;
+}
+
+.orange__box {
+  width: 65px;
+  height: 65px;
+  background-color: var(--primary-orange);
+  border-radius: 15px;
+}
+
+.about__item-content {
+  max-width: 327px;
+  width: 100%;
+  text-align: center;
+}
+
+.about__item-title {
+  font-size: 24px;
+  text-align: center;
+  margin: 0 auto 24px;
+}
+
+.about__item-text {
+  width: 100%;
+  font-size: 16px;
+}
+
+footer {
+  color: #7b8bad;
+  text-align: center;
+  margin-bottom: 40px;
 }

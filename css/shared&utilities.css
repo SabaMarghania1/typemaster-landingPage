@@ -2,7 +2,7 @@
 
 :root {
   --primary-orange: #f16718;
-  --primary-secondary: #ff9b62;
+  --secondary-orange: #ff9b62;
   --dark-color: #162542;
   --light-color: #7b8bad;
   --white: #fff;
@@ -41,6 +41,12 @@ ul {
   align-items: center;
 }
 
+.flex-row-c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .btn {
   padding: 12px 14px;
   border-radius: 8px;
@@ -48,8 +54,10 @@ ul {
 }
 
 .title {
-  font-weight: 900px;
+  font-weight: 900;
   color: var(--dark-color);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .text {
