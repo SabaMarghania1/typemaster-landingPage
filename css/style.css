@@ -160,7 +160,7 @@ footer {
   margin-bottom: 40px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 765px) {
   .img__mobile {
     display: none;
   }
