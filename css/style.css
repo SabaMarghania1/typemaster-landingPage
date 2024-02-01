@@ -139,13 +139,17 @@ main {
 .about__item-content {
   max-width: 327px;
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
 }
 
 .about__item-title {
   font-size: 24px;
-  text-align: center;
-  margin: 0 auto 24px;
+
+  margin: 0 auto;
+  width: 14ch;
 }
 
 .about__item-text {
@@ -187,19 +191,25 @@ footer {
   }
 
   .hero__section-textcontent {
-    width: 100%;
+    width: 110%;
     align-items: flex-start;
+    transform: translateY(5%);
   }
 
   .hero__section-img-container {
+    margin-right: -40px;
+    background-image: url("../assets/tablet/image-keyboard.jpg");
     width: 100%;
-    height: 425px;
-    margin-right: -80px;
+    height: 420px;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
   }
 
   .hero__section-img {
-    width: 100%;
     height: 100%;
+    display: none;
   }
 
   .imgs {
@@ -234,5 +244,51 @@ footer {
 
   .main__title {
     text-align: start;
+  }
+
+  .imgs {
+    margin-bottom: 72px;
+  }
+
+  .about__header {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    text-align: start;
+  }
+
+  .about__title {
+    text-align: start;
+  }
+
+  .about__text {
+    text-align: start;
+    max-width: 400px;
+    width: 400;
+  }
+
+  .about__list {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 90px 30px;
+  }
+
+  .about__list-item {
+    align-items: flex-start;
+  }
+
+  .about__item-content {
+    max-width: 281px;
+    width: 100%;
+  }
+
+  .about__item-title {
+    margin: 0;
+    text-align: left;
+  }
+
+  .about__item-text {
+    text-align: start;
+    max-width: 281px;
   }
 }
